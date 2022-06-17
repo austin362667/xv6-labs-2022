@@ -24,7 +24,7 @@ but is implemented for a modern RISC-V multiprocessor using ANSI C.
 |Traps| RISC-V assembly | 0% | yes |
 |Traps| Backtrace | 0% | yes |
 |Traps| Alarm | 0% | yes |
-|Copy on-Write| Implement copy-on write | 0% | yes |
+|Copy on-Write Fork| Implement copy-on write | 0% | yes |
 |Multithreading| Uthread: switching between threads | 0% | yes |Using threads
 |Multithreading| Using threads | 0% | yes |
 |Multithreading| Barrier | 0% | yes |
