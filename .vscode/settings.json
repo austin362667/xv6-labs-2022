@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "algorithm": "c",
+        "random": "c",
+        "arm_neon.h": "c",
+        "stdint.h": "c"
+    }
+}
