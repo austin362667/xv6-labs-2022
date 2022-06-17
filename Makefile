@@ -193,8 +193,9 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
-
-
+	$U/_sleep\
+	$U/_pingpong\
+	$U/_primes\
 
 
 ifeq ($(LAB),$(filter $(LAB), pgtbl lock))
@@ -258,7 +259,7 @@ UEXTRA=
 ifeq ($(LAB),util)
 	UEXTRA += user/xargstest.sh
 endif
-
+UEXTRA += $(TESTS)
 
 fs.img: mkfs/mkfs README $(UEXTRA) $(UPROGS)
 	mkfs/mkfs fs.img README $(UEXTRA) $(UPROGS)
