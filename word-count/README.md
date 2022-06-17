@@ -29,7 +29,7 @@ Just a sample (multiple   spaces).
 不過在 OS X 的機器上，`date`指令沒有支援`%N`flag，所以我們需要另外安裝 GNU 的 coreutils，用 homebrew 就行了，然後再把`date`換成用`gdate`。
 
 最後附上我們的實驗結果：
-|  語言/方法  |  詞數量  |  完成耗時  | 目標當案 |
+|  語言/方法  |  字元數量  |  完成耗時  | 目標當案 |
 |  ----  |  ----  |  ----  | ----  |
 |  C/SIMD  |  1024000  |  12 ms  | xv6/fs.img  |
 |  GO/Goroutine  |  1024000  |  11 ms  | xv6/fs.img  |
